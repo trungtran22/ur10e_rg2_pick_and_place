@@ -12,6 +12,7 @@ Modifying URDF file (attach RG2 with Ur10e robot arm):
 > Add meshes file of RG2 gripper and create joints with the Ur10e Robot Arm
 >
 Create Ur10e attached with RG2 gripper package via Moveit Setup Assistant
+
 ![moveit_setup_assistant](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/_images/setup_assistant_start.png)
 
 
