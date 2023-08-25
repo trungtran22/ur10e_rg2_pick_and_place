@@ -19,11 +19,16 @@ Create Ur10e attached with RG2 gripper package via Moveit Setup Assistant
 >
 After finishing creating the package, you will have the folder (for example: ur10e_moveit_config), remember to `catkin build`
 >
-Launching the package:
+**Launching the package:**
 >
 `roslaunch ur10e_rg2_moveit_config demo.launch`
 >
 ![ur10e_rg2](https://github.com/trungtran22/ur10e_rg2_pick_and_place/blob/253399e7db206ef86994cccb9b2b6cb1e1eeb6b1/image/ur10e_rg2.png)
-
+>
+**Perform Pick and Place in Rviz:**
+>
+`rosrun moveit_ur main.py`
+>
+>
 
 
