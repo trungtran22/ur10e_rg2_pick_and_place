@@ -649,7 +649,7 @@
     <joint name="wrist_3_hex_backplate" type="fixed">
         <parent link="wrist_3_link" />
         <child link="hex_backplate_link" />
-        <origin rpy="-1.57079632659 3.14159265359 3.14159265359" xyz="0 0 0" />
+        <origin rpy="-1.57079632659 3.14159265359 0" xyz="0 0 0" />
     </joint>
     <joint name="wrist_3_hex" type="fixed">
         <parent link="hex_backplate_link" />
@@ -659,7 +659,7 @@
     <joint name="wrist_3_hand" type="fixed">
         <parent link="hex_link" />
         <child link="onrobot_rg2_base_link" />
-        <origin rpy="3.14159265359 3.14159265359 -3.14159265359" xyz="0 0 0.05" />
+        <origin rpy="3.14159265359 3.14159265359 1.57079632679" xyz="0 0 0.05" />
     </joint>
     
     <!-- ROS-Industrial 'tool0' frame: all-zeros tool frame -->
