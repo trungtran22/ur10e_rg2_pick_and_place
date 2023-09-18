@@ -30,5 +30,6 @@ After finishing creating the package, you will have the folder (for example: ur1
 `rosrun moveit_ur main.py`
 >
 >
-
+**Demo Video**
+https://youtube.com/shorts/rOTPqwZyU7w?si=ZUvhbGPq-e-PDXsw
 
