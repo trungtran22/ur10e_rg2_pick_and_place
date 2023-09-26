@@ -1,5 +1,5 @@
 # ur10e_rg2_pick_and_place
-## Performing accurate pick-and-place with Ur10e and Onrobot RG2 gripper
+## Building model for Ur10e and Onrobot RG2 gripper and perform simple pick'n'place
 ## Python 2/3 - ROS Melodic - Ubuntu 18.04
 
 **Cloning universal_robot:**
