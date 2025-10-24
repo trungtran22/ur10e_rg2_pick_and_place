@@ -1,24 +1,24 @@
 # ur10e_rg2_pick_and_place
-## Building model for Ur10e and Onrobot RG2 gripper and perform simple pick'n'place
-## Python 2/3 - ROS Melodic - Ubuntu 18.04
+## Building model for Ur10e attached with Onrobot RG2 gripper and HEX Torque sensor
+## Python 2/3 - ROS Noetic - Ubuntu 20.04
 
-**Cloning universal_robot:**
+**Installation universal_robot package:**
 https://github.com/ros-industrial/universal_robot.git
 
-**Cloning onrobot_rg2 gripper:**
+**Installation onrobot_rg2 gripper package:**
 https://github.com/Osaka-University-Harada-Laboratory/onrobot.git
 
-Modifying URDF file (attach RG2 with Ur10e robot arm):
-> Add meshes file of RG2 gripper and create joints with the Ur10e Robot Arm
->
-> Additional: adding HEX torque sensor to the robot arm, access this link to download step file for HEX: https://onrobot.com/en/downloads?_gl=1*15scm0x*_ga*MTMzNDkxODE2Mi4xNjkyODYwMzgw*_up*MQ..
->
-Create Ur10e attached with RG2 gripper package via Moveit Setup Assistant
->
-![moveit_setup_assistant](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/_images/setup_assistant_start.png)
->
-After finishing creating the package, you will have the folder (for example: ur10e_moveit_config), remember to `catkin build`
->
+Modifying URDF file (attach RG2 with Ur10e robot arm):\
+STL files of RG2 and HEX can be found [here](https://github.com/trungtran22/ur10e_rg2_pick_and_place/tree/main/ur10e_rg2_hex_tracik_moveit_config/description)\
+\
+**Step:**
+- Modify UR10e URDF file: adding RG2 and HEX.
+
+- Create Ur10e attached with RG2 gripper and HEX sensor package via Moveit Setup Assistant
+
+![moveit_setup_assistant](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/_images/setup_assistant_start.png)\
+
+
 **Launching the package:**
 >
 `roslaunch ur10e_rg2_moveit_config demo.launch`
