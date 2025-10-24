@@ -1,5 +1,5 @@
 # ur10e_rg2_pick_and_place
-## Building model for Ur10e attached with Onrobot RG2 gripper and HEX Torque sensor
+## Building model for UR10e attached with Onrobot RG2 gripper and HEX Torque sensor for VGU Robotics Lab
 ## Python 2/3 - ROS Noetic - Ubuntu 20.04
 
 **Installation universal_robot package:**
