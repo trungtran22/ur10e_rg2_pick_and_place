@@ -2,7 +2,7 @@
 <launch>
   <arg name="paused" default="false"/>
   <arg name="gazebo_gui" default="true"/>
-  <arg name="urdf_path" default="$(find ur_description)/urdf/ur10e_rg2_hex.urdf"/>
+  <arg name="urdf_path" default="$(find ur10e_rg2_hex_tracik_moveit_config)/description/ur10e_rg2_hex.urdf"/>
 
   <!-- startup simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
